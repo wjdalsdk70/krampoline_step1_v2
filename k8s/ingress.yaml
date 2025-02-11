@@ -16,3 +16,5 @@ spec:
             backend:
               serviceName: krampoline
               servicePort: 3000
+			  path: /
+              pathType: Prefix
